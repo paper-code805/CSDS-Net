@@ -2,10 +2,6 @@
 
 [Manuscript/code mapping](docs/IMPLEMENTATION.md) · [Training protocol](docs/PROTOCOL.md) · [Archived results](results/summary.csv)
 
-**Lihong Peng**, **Xinqi Zou** (corresponding author), and **Zhuoran Xie**<br />
-School of Computer Science, Shandong Xiehe University, Jinan, China<br />
-School of Electronic and Information Engineering, Yiyang Vocational and Technical College, Yiyang, China
-
 This repository is organized around the supplied CSDS-Net manuscript. In the paper, CSDS-Net uses a four-level encoder–decoder with two CSDS Blocks per encoder level (64/128/256/512 channels), structure-guided regional and pixel sparse interaction, and crack-structure-aware context aggregation (CSCA) feeding additive decoder skips.
 
 The public training package contains a checkpoint-compatible semantic research variant. Its verified implementation is not identical to every operation in the manuscript; the differences are listed in [Implementation](docs/IMPLEMENTATION.md). Paper-facing descriptions and reported tables in this README follow the manuscript, while runnable commands describe the included code. The manuscript has no verified public DOI or paper/weight download link in this release.
