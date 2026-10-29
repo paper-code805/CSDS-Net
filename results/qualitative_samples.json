@@ -1,0 +1,47 @@
+[
+  {
+    "dataset": "CrackTree260",
+    "sample_id": "CrackTree260/6198.jpg",
+    "selection": "first non-empty validation sample in fixed manifest order; no score-based selection",
+    "checkpoint_sha256": "06232611a639b53588fd5d772ddae53c653a49308bb049b6ae1cacd4f0026852",
+    "checkpoint_epoch": 77,
+    "training_seed": 42,
+    "input_size": [
+      256,
+      256
+    ],
+    "threshold": 0.5,
+    "amp": true,
+    "fp32_retry_batches": 0
+  },
+  {
+    "dataset": "CrackSC",
+    "sample_id": "image/125.jpg",
+    "selection": "first non-empty validation sample in fixed manifest order; no score-based selection",
+    "checkpoint_sha256": "2c9d6b918640562df3aad43c7ed8b5a80cb986a424461f878284efb671e7e68b",
+    "checkpoint_epoch": 88,
+    "training_seed": 42,
+    "input_size": [
+      256,
+      256
+    ],
+    "threshold": 0.5,
+    "amp": true,
+    "fp32_retry_batches": 0
+  },
+  {
+    "dataset": "UAV-Crack500",
+    "sample_id": "leftImg8bit/train/UAV-CrackX16/937958_DJI_20231015160532_0003_Z.JPG_6_z.jpg",
+    "selection": "first non-empty validation sample in fixed manifest order; no score-based selection",
+    "checkpoint_sha256": "e1bd35fe78cc7eaa6a9dc7cbcf397cef761df62e0533989663a0c4097b7fc1db",
+    "checkpoint_epoch": 98,
+    "training_seed": 42,
+    "input_size": [
+      256,
+      256
+    ],
+    "threshold": 0.5,
+    "amp": true,
+    "fp32_retry_batches": 0
+  }
+]

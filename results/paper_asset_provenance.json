@@ -1,0 +1,120 @@
+{
+  "source": "Author-supplied CSDS-Net_Sensors.zip; active figures/tables referenced by the included LaTeX manuscript",
+  "figures_and_tables": [
+    {
+      "kind": "figure",
+      "label": "Figure 3",
+      "path": "figs/paper/qualitative_comparison.png",
+      "source_entry": "CSDS-Net_Sensors_SubmissionPolish/assets/qualitative_comparison.png",
+      "bytes": 3115154,
+      "sha256": "9030354e3431419f9b1aa0f233159ef07d0eca8814d21a31fb30a5548d18ab53",
+      "copied_without_image_processing": true
+    },
+    {
+      "kind": "figure",
+      "label": "Figure 4",
+      "path": "figs/paper/difficult_comparison.png",
+      "source_entry": "CSDS-Net_Sensors_SubmissionPolish/assets/difficult_comparison.png",
+      "bytes": 3001400,
+      "sha256": "575c1436398659857d5d676a8ecdcd2403986490b1d21c144b7d1c8079bc68c4",
+      "copied_without_image_processing": true
+    },
+    {
+      "kind": "figure",
+      "label": "Figure 5",
+      "path": "figs/paper/module_effect_heatmaps.png",
+      "source_entry": "CSDS-Net_Sensors_SubmissionPolish/assets/module_effect_heatmaps.png",
+      "bytes": 1824940,
+      "sha256": "faf849ff6befcf00c0af2ed036724229bfe7e019694bf01033134870b02d71f0",
+      "copied_without_image_processing": true
+    },
+    {
+      "kind": "figure",
+      "label": "Figure 6",
+      "path": "figs/paper/training_dynamics_2x3.png",
+      "source_entry": "CSDS-Net_Sensors_SubmissionPolish/assets/training_dynamics_2x3.png",
+      "bytes": 205472,
+      "sha256": "2fc9f294e240c184225697bbc36d3faa8223eb7ded5fdc6addb1e129673a9a06",
+      "copied_without_image_processing": true
+    },
+    {
+      "kind": "figure",
+      "label": "Figure 7",
+      "path": "figs/paper/module_contribution_trajectories.png",
+      "source_entry": "CSDS-Net_Sensors_SubmissionPolish/assets/module_contribution_trajectories.png",
+      "bytes": 164135,
+      "sha256": "083a28c1c2b293468ed6ec0495f550cf7698059d98803710dcdc96426febfede",
+      "copied_without_image_processing": true
+    },
+    {
+      "kind": "table_data",
+      "label": "Table 2",
+      "path": "results/paper/main_comparison.csv",
+      "source_entry": "CSDS-Net_Sensors_SubmissionPolish/data/main_comparison.csv",
+      "bytes": 2420,
+      "sha256": "9a4639dce73106910de24bd00b0d349b5954c6f8738b8809d76cdad1083a76b8",
+      "copied_without_data_changes": true
+    },
+    {
+      "kind": "table_data",
+      "label": "Table 3",
+      "path": "results/paper/ablation_results.csv",
+      "source_entry": "CSDS-Net_Sensors_SubmissionPolish/data/ablation_results.csv",
+      "bytes": 642,
+      "sha256": "1a918d933a5de2152219db743466bddfffd7b1fb9f77624c1bd1eeb8d91d7131",
+      "copied_without_data_changes": true
+    },
+    {
+      "kind": "table_data",
+      "label": "Table 6",
+      "path": "results/paper/efficiency_comparison.csv",
+      "source_entry": "CSDS-Net_Sensors_SubmissionPolish/data/efficiency_comparison.csv",
+      "bytes": 277,
+      "sha256": "8f98e5de8b3f06c05383789f80aef2a5886b0010755fca1d4f47bc07333f20c5",
+      "copied_without_data_changes": true
+    },
+    {
+      "kind": "figure",
+      "label": "Figure 1",
+      "path": "figs/CSDS_Net_Architecture.png",
+      "source_entry": "CSDS-Net_Sensors_SubmissionPolish/source_figures/CSDS_Net_Architecture.png",
+      "bytes": 206064,
+      "sha256": "ba68bb52386ae409ac75c4388a40657617c5e6fab48cd8489facf93c451b0fcd",
+      "copied_without_image_processing": true
+    },
+    {
+      "kind": "figure",
+      "label": "Figure 2",
+      "path": "figs/CSDS_Block.png",
+      "source_entry": "CSDS-Net_Sensors_SubmissionPolish/source_figures/CSDS_Block.png",
+      "bytes": 242508,
+      "sha256": "4ebd5b0b9b15aa917c6c9046b6a448b7494b9ef7727d5e30b57914c119649f71",
+      "copied_without_image_processing": true
+    },
+    {
+      "kind": "table_provenance",
+      "label": "Manuscript data provenance",
+      "path": "results/paper/source_data_provenance.json",
+      "source_entry": "CSDS-Net_Sensors_SubmissionPolish/data/data_provenance.json",
+      "bytes": 3981,
+      "sha256": "10fcd364b54bf3519c0f74580312d5274357eea05c56cf928959a37bd1a0bfd4",
+      "copied_without_data_changes": true
+    }
+  ],
+  "notes": [
+    "The original manuscript figures are embedded as PNG files without replotting or pixel edits. Figure numbers follow the final paginated manuscript.",
+    "Tables 1, 4 and 5 are transcribed from experiments_body.tex because no separate CSV was supplied.",
+    "Tables 2, 3 and 6 data files are copied byte-for-byte from the archive.",
+    "These are manuscript-reported materials, not independently remeasured results."
+  ],
+  "source_archive_sha256": "eb3a7e515733182352c2b62d286aea5a04a17ba4853e103bfaa8d9164e931caa",
+  "final_pdf_sha256": "3e33da4f14cd254b200932ba6839a968a3fc8a48878f164721981d89414aed12",
+  "text_transcriptions": {
+    "source_entry": "CSDS-Net_Sensors_SubmissionPolish/experiments_body.tex",
+    "source_sha256": "dff55da3de62872243edab93fc1614f66dd67389a02eb7f9e41bfa7b3765cd8c",
+    "PDF_Table_1_LaTeX_label": "tab:2",
+    "PDF_Table_4_LaTeX_label": "tab:5",
+    "PDF_Table_5_LaTeX_label": "tab:6",
+    "all_markdown_cells_verified": true
+  }
+}

@@ -1,0 +1,8 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+# Preserve raw epoch-history bytes and split hashes across platforms.
+*.csv -text
+splits/*.json -text
+*.png binary

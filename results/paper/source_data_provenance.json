@@ -1,0 +1,64 @@
+{
+  "removed": "Previous Figure 1 placeholder training_dynamics_layout and related missing-figure text",
+  "new_assets": {
+    "training_dynamics_2x3": "Unmodified plot pixels from three supplied convergence PNGs; Dice top, Precision bottom; labels and layout only",
+    "module_effect_heatmaps": "All data panels preserved; footer reworded; two-pixel matching disclosed in caption",
+    "dynamic_ranking": "Supplied ranking figure; manual M0 adjustment note retained",
+    "module_contribution_trajectories": "Supplied paired-epoch trajectory figure",
+    "module_contribution": "Replot of nine real paired summary rows from original report"
+  },
+  "raw_epoch_logs_available": false,
+  "CrackSC_M0": "Source mean manually revised. Source Dice curves shifted down by 0.0106731374 each epoch; Precision back-calculated; not newly evaluated observations.",
+  "method_source": "Prior method.md proposal; implementation mapping to A/B/C is unverified.",
+  "ordinary_metric": "two-pixel tolerant F1 (called Dice by source)",
+  "difficult_metric": "strict pixel Dice",
+  "figure_data_changed": false,
+  "efficiency_comparison": {
+    "source": "image(20261009-124111).png",
+    "library_file_id": "libfile_8ba534a7532081918675f273a34d474a",
+    "rows": 8,
+    "transcription": "All 24 numeric cells visually transcribed at source precision.",
+    "timing_protocol": "Input dimensions, batch size, precision, warmup and timing scope not supplied. No values invented.",
+    "derived_claims": "CSDS FPS rank 2; parameter rank 3; GFLOPs rank 3; ratios use displayed values."
+  },
+  "current_revision": {
+    "date": "2026-10-29",
+    "experimental_results_changed": false,
+    "original_images_changed": false,
+    "funding_grant": "SDXHQD2025098",
+    "caption_edits": [
+      "Figure 3",
+      "Figure 4",
+      "Table 3",
+      "Figure 6"
+    ],
+    "source_adjustment_disclosure": "Evaluation rules and author-supplied adjusted CrackSC/M0 summary/curve processing retained in Section 3.2.",
+    "publisher_metadata": "Copyright moved to first page; standard publisher note added after bibliography.",
+    "data_availability": "Publicly available datasets were analyzed in this study.",
+    "reference_links": "34 DOI labels use [CrossRef]; 8 existing proceedings links use [Publisher]. All target URLs unchanged."
+  },
+  "previous_revision": {
+    "date": "2026-10-28",
+    "figure_6": "Replaced rejected Figure 5 ROI enlargement with a new three-dataset/six-configuration performance heatmap and aligned parameter/GFLOPs tracks.",
+    "source": "Existing ablation_results.csv summary statistics, unchanged.",
+    "new_measurements": false,
+    "new_spatial_predictions": false,
+    "CrackSC_M0": "Author-restored 0.8423 \u00b1 0.0024 retained; original provenance remains documented above.",
+    "previous_dynamic_ranking": "Still excluded from active manuscript.",
+    "original_figure_assets": "All unchanged; obsolete ROI figure retained as an unused historical asset."
+  },
+  "previous_author_revision": {
+    "date": "2026-10-28",
+    "author_update": "LP, XZ (corresponding), and ZX; two institutional addresses and all emails updated.",
+    "figure_6": "Previous configuration heatmap and dedicated paragraph removed; no replacement image.",
+    "original_figure_assets": "Unchanged, with obsolete assets retained as unused historical files.",
+    "data_links": [
+      "https://github.com/qinnzou/DeepCrack#download",
+      "https://github.com/jonguo111/Transformer-Crack",
+      "https://github.com/SHAN-JH/UAV-CrackX-Datasets"
+    ],
+    "CrackSC_release": "Partial release is explicitly described in manuscript and source repository.",
+    "UAV_link_scope": "Source-study repository provides UAV-CrackX data. Exact equivalence to the experimental 500-patch release/split was not established; the statement identifies it as source-study imagery and annotations.",
+    "experimental_results_changed": false
+  }
+}

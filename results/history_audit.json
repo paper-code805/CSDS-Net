@@ -1,0 +1,817 @@
+{
+  "experiments": [
+    {
+      "dataset": "CrackTree260",
+      "model": "csds_ablation_m0",
+      "seed": 42,
+      "source_run": "runs/csds_module_ablation/CrackTree260/csds_ablation_m0/seed_42",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 66,
+      "sha256": {
+        "history.csv": "f7bbb902c196a3e3a0389fc37a2edfa6e53d09d56fbee19b4868c5b7e659bdac",
+        "tolerance2_history.csv": "112f7acb1a7de414c54f4fe6fd51ce573e39f915061c0b6bb45250a93c33ae98"
+      }
+    },
+    {
+      "dataset": "CrackTree260",
+      "model": "csds_ablation_m0",
+      "seed": 123,
+      "source_run": "runs/csds_module_ablation/CrackTree260/csds_ablation_m0/seed_123",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 99,
+      "sha256": {
+        "history.csv": "fa716565c42a5cc26e3872dc9a92443f25eff0af325225f26beb6f32b9a76e35",
+        "tolerance2_history.csv": "b514eb31f80935f1d8f5757af5755724b03bbc8ee4eba4bf575a275284c99049"
+      }
+    },
+    {
+      "dataset": "CrackTree260",
+      "model": "csds_ablation_m0",
+      "seed": 3407,
+      "source_run": "runs/csds_module_ablation/CrackTree260/csds_ablation_m0/seed_3407",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 72,
+      "sha256": {
+        "history.csv": "c759c6f8a7abc65ea276a98bb7398e90b7560882b4ef2985cd36576e3b0dee6f",
+        "tolerance2_history.csv": "be32b104ad8e44cd435384ef14283a816a4404b366c4f692a9ffe3e5f3e6a712"
+      }
+    },
+    {
+      "dataset": "CrackSC",
+      "model": "csds_ablation_m0",
+      "seed": 42,
+      "source_run": "runs/csds_module_ablation/CrackSC/csds_ablation_m0/seed_42",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 91,
+      "sha256": {
+        "history.csv": "e57d1788b7176323bb97ccee946ba2a77119ede25990850c7f06e3490cafb8ee",
+        "tolerance2_history.csv": "d6578cc5976a40fe18c90fb0d1b8f6601fcc76e03ade1894d58a818d31436e7d"
+      }
+    },
+    {
+      "dataset": "CrackSC",
+      "model": "csds_ablation_m0",
+      "seed": 123,
+      "source_run": "runs/csds_module_ablation/CrackSC/csds_ablation_m0/seed_123",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 92,
+      "sha256": {
+        "history.csv": "ab8c8b9817a415724d3bdc44bf629df61720bf0873512506c2c4bd9eac2436cc",
+        "tolerance2_history.csv": "b88527f6c1e32b024cfa921087e2b815b831ed97468088c8828075c5837c2521"
+      }
+    },
+    {
+      "dataset": "CrackSC",
+      "model": "csds_ablation_m0",
+      "seed": 3407,
+      "source_run": "runs/csds_module_ablation/CrackSC/csds_ablation_m0/seed_3407",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 94,
+      "sha256": {
+        "history.csv": "008243f2f43374cd9aa0d6ad95d91df620abf9cd48cbc095e0020a9931a3788f",
+        "tolerance2_history.csv": "375e859a386f42e7b515943e8a7e0b2879a0e3af3914c74c46791cbce920dc3e"
+      }
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "model": "csds_ablation_m0",
+      "seed": 42,
+      "source_run": "runs/csds_module_ablation/UAV-Crack500/csds_ablation_m0/seed_42",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 98,
+      "sha256": {
+        "history.csv": "f05ffc28b393cd00fd7d78fa6f8c11c6c0813fc085af21a6e6a0e6e5d8468f60",
+        "tolerance2_history.csv": "81fa4dec57aa9825ad2c50bdb5af379a87f148639db1d5a08c53966c890fa508"
+      }
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "model": "csds_ablation_m0",
+      "seed": 123,
+      "source_run": "runs/csds_module_ablation/UAV-Crack500/csds_ablation_m0/seed_123",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 97,
+      "sha256": {
+        "history.csv": "6bd22e69c2bb77bef7317792a5c300f88f69353538605297cfc6fbee369279f9",
+        "tolerance2_history.csv": "34b4232869e48b43f53830e818b64f3d1febfba0f2723342b50d80caa9db54e3"
+      }
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "model": "csds_ablation_m0",
+      "seed": 3407,
+      "source_run": "runs/csds_module_ablation/UAV-Crack500/csds_ablation_m0/seed_3407",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 58,
+      "sha256": {
+        "history.csv": "0f7c78e2ded5a190552fa847bf29eee6bc9845cefc6e9c898321c84d8a6f2a3c",
+        "tolerance2_history.csv": "148d8950e787971acc14dce4e3229bfbc334fce319c2ede84dd86470ab629b8b"
+      }
+    },
+    {
+      "dataset": "CrackTree260",
+      "model": "csds_ablation_m1",
+      "seed": 42,
+      "source_run": "runs/csds_module_ablation/CrackTree260/csds_ablation_m1/seed_42",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 95,
+      "sha256": {
+        "history.csv": "36e69c5e19c02b8d0526ad7d1dc8cf9421e12c42239740b876fe6136c81c51ab",
+        "tolerance2_history.csv": "73fa0e6ac12b2333497d05bb6979ee5e780a38d9cc22516c721cec2b93a541ab"
+      }
+    },
+    {
+      "dataset": "CrackTree260",
+      "model": "csds_ablation_m1",
+      "seed": 123,
+      "source_run": "runs/csds_module_ablation/CrackTree260/csds_ablation_m1/seed_123",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 91,
+      "sha256": {
+        "history.csv": "04d69d88ea658aea24136a3e9f8b5bdfda15b1cae182fc7eaebb7a3e8d75395d",
+        "tolerance2_history.csv": "528449364d2baca97115266731feaf917bb15b6c2b91027090e1517cf3548638"
+      }
+    },
+    {
+      "dataset": "CrackTree260",
+      "model": "csds_ablation_m1",
+      "seed": 3407,
+      "source_run": "runs/csds_module_ablation/CrackTree260/csds_ablation_m1/seed_3407",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 90,
+      "sha256": {
+        "history.csv": "0b8cc9482bfde75624127b24eebadbc2c757459ca2c7a16107a219c244eff540",
+        "tolerance2_history.csv": "6928fc09cf3bab7f54eae48c0d675ef46edf32794a3131da670a23ea7200a65f"
+      }
+    },
+    {
+      "dataset": "CrackSC",
+      "model": "csds_ablation_m1",
+      "seed": 42,
+      "source_run": "runs/csds_module_ablation/CrackSC/csds_ablation_m1/seed_42",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 98,
+      "sha256": {
+        "history.csv": "4615af98c48fe2b431a0e5ec9429ef233acfae4fa9dcbddb4eda6ef1c2f19ecc",
+        "tolerance2_history.csv": "f9d32e73207edc948a907866ce9df904c7709e05c5e5a25dff80cdbbc120dff9"
+      }
+    },
+    {
+      "dataset": "CrackSC",
+      "model": "csds_ablation_m1",
+      "seed": 123,
+      "source_run": "runs/csds_module_ablation/CrackSC/csds_ablation_m1/seed_123",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 86,
+      "sha256": {
+        "history.csv": "e8cdf8eddd4f154db46d56399e2536599c3eb971846f08e4fe78a2e4574770a0",
+        "tolerance2_history.csv": "fdb0e7dfad370d913557e2855af2aeca11ac2baa635dd129aaa0cb86d6228955"
+      }
+    },
+    {
+      "dataset": "CrackSC",
+      "model": "csds_ablation_m1",
+      "seed": 3407,
+      "source_run": "runs/csds_module_ablation/CrackSC/csds_ablation_m1/seed_3407",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 100,
+      "sha256": {
+        "history.csv": "ebc5f2f4d115e085916ad9ae30b57d4bd6ce4d2b929208adac3a231f8db21aaf",
+        "tolerance2_history.csv": "66bb05e90d862ab841089ddddf29ececbebe944acf5f01785d60f8bf4192b64f"
+      }
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "model": "csds_ablation_m1",
+      "seed": 42,
+      "source_run": "runs/csds_module_ablation/UAV-Crack500/csds_ablation_m1/seed_42",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 57,
+      "sha256": {
+        "history.csv": "46485405c27dd366586d4ab35b4f97df9046a555b6f043d8e0fffcf53e433517",
+        "tolerance2_history.csv": "5be4865b94b2082629cd514143faf244fd99a83e4768e164e7b67885ccb750ed"
+      }
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "model": "csds_ablation_m1",
+      "seed": 123,
+      "source_run": "runs/csds_module_ablation/UAV-Crack500/csds_ablation_m1/seed_123",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 74,
+      "sha256": {
+        "history.csv": "cf809e94f89517a70fb4a7a5547f2b5c18c69097398adbccb36a89005c657d12",
+        "tolerance2_history.csv": "6b7499070298fb11f00a9655ff977b9335ee41b2407a66c5da88760e1937f8d1"
+      }
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "model": "csds_ablation_m1",
+      "seed": 3407,
+      "source_run": "runs/csds_module_ablation/UAV-Crack500/csds_ablation_m1/seed_3407",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 76,
+      "sha256": {
+        "history.csv": "a84189a5783e15adc49f0c279d6e2b4b10e17833541164e998c6925f9ac4af36",
+        "tolerance2_history.csv": "9a19338bb46706ea55cc014cd052b8e8574eb1f5f161780d1a3e4e3a2dbf9ada"
+      }
+    },
+    {
+      "dataset": "CrackTree260",
+      "model": "csds_ablation_m2",
+      "seed": 42,
+      "source_run": "runs/csds_module_ablation/CrackTree260/csds_ablation_m2/seed_42",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 71,
+      "sha256": {
+        "history.csv": "c3d8f78b3334bd6f43b15a203d6976531de9d6f2f09cafb6263975d11009cbcb",
+        "tolerance2_history.csv": "2b9b37d27fe8c176272dd4eda13b8b819a2f08ed421c65bef2fa844b21d1bc83"
+      }
+    },
+    {
+      "dataset": "CrackTree260",
+      "model": "csds_ablation_m2",
+      "seed": 123,
+      "source_run": "runs/csds_module_ablation/CrackTree260/csds_ablation_m2/seed_123",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 81,
+      "sha256": {
+        "history.csv": "02cd19894990462162b6639f028225fa91598b7ae1eff4d72e81f8391325e395",
+        "tolerance2_history.csv": "16808a1e61f6d2a0f3d221d74bed1556593414cce08144611c57d353e5887415"
+      }
+    },
+    {
+      "dataset": "CrackTree260",
+      "model": "csds_ablation_m2",
+      "seed": 3407,
+      "source_run": "runs/csds_module_ablation/CrackTree260/csds_ablation_m2/seed_3407",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 100,
+      "sha256": {
+        "history.csv": "234f7f9bd5552449d39f5dfd9717fa954bec3aeecb01ee0adfcd5ff19654c81e",
+        "tolerance2_history.csv": "d70529df97135d9745f344d1a597ac631ae656fcaea8386aaa803498ee751aef"
+      }
+    },
+    {
+      "dataset": "CrackSC",
+      "model": "csds_ablation_m2",
+      "seed": 42,
+      "source_run": "runs/csds_module_ablation/CrackSC/csds_ablation_m2/seed_42",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 77,
+      "sha256": {
+        "history.csv": "7bd24748f178f65e3f01e628ffc168b5a672322fdffb8aa48a984947f1ecad22",
+        "tolerance2_history.csv": "91cd2b8d5c015cc9a3420b7199b36840da5e738f953e83c76f772b8bab281de4"
+      }
+    },
+    {
+      "dataset": "CrackSC",
+      "model": "csds_ablation_m2",
+      "seed": 123,
+      "source_run": "runs/csds_module_ablation/CrackSC/csds_ablation_m2/seed_123",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 99,
+      "sha256": {
+        "history.csv": "0a57ada7b16373a164eeed25b59b73e456c7c82be83451e25704c77073578fe3",
+        "tolerance2_history.csv": "4479896ac912c115bc6633540b32fafef6d50dd2efa6e689053c3266fc5c871c"
+      }
+    },
+    {
+      "dataset": "CrackSC",
+      "model": "csds_ablation_m2",
+      "seed": 3407,
+      "source_run": "runs/csds_module_ablation/CrackSC/csds_ablation_m2/seed_3407",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 100,
+      "sha256": {
+        "history.csv": "d280c479cacf4385f7a056f286f0518195803b5ea09ee9d37b5bc42018d00d0f",
+        "tolerance2_history.csv": "77b9a24fabf5e49c7d6ae01a5b6f6c523727db43f4339c1f4e89ed4b1ceb44e5"
+      }
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "model": "csds_ablation_m2",
+      "seed": 42,
+      "source_run": "runs/csds_module_ablation/UAV-Crack500/csds_ablation_m2/seed_42",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 54,
+      "sha256": {
+        "history.csv": "36c753316f70307266b2ed60ee64f03f09182fbac657c303b1a8a64e36d425e0",
+        "tolerance2_history.csv": "68fedc421a13403f9b71c137fba6c76658a7df9fa69054819534dd49fc1ce6de"
+      }
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "model": "csds_ablation_m2",
+      "seed": 123,
+      "source_run": "runs/csds_module_ablation/UAV-Crack500/csds_ablation_m2/seed_123",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 65,
+      "sha256": {
+        "history.csv": "478410e736345b586daf00682ba759cd1f7b220448aa140b01d96528adfd7be9",
+        "tolerance2_history.csv": "d8ff691f33f438696b45daf2e11cf180a578f28d19c9d43a7a0aa8c52c5cc370"
+      }
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "model": "csds_ablation_m2",
+      "seed": 3407,
+      "source_run": "runs/csds_module_ablation/UAV-Crack500/csds_ablation_m2/seed_3407",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 69,
+      "sha256": {
+        "history.csv": "1b843132d9868bbae8a0bf10c94df3df35e46b1adc77654bafd4e7c022069d0d",
+        "tolerance2_history.csv": "90f6f21f427c68f984a669b64e668cf59eaa054b3f896cf3ba4b0be9741f32c1"
+      }
+    },
+    {
+      "dataset": "CrackTree260",
+      "model": "csds_ablation_m3",
+      "seed": 42,
+      "source_run": "runs/csds_module_ablation/CrackTree260/csds_ablation_m3/seed_42",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 47,
+      "sha256": {
+        "history.csv": "45293e5f5ae7532c0e07fd3098ac4dfb4dd3edd0ed5b916870df94e07a7d98cd",
+        "tolerance2_history.csv": "b0bea1728cca0a9571dd497cc963fc5024e307f646af1e12d2c0235f6504ad24"
+      }
+    },
+    {
+      "dataset": "CrackTree260",
+      "model": "csds_ablation_m3",
+      "seed": 123,
+      "source_run": "runs/csds_module_ablation/CrackTree260/csds_ablation_m3/seed_123",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 88,
+      "sha256": {
+        "history.csv": "a3b6b3dab6dd47ab32c5c83f8d6de173f71ec46531d642dd436218c922e9241a",
+        "tolerance2_history.csv": "6d15bdf5f0f67cc37338393d2f1116cea8ac1c5207ce3045cd61e9d6f03b0a34"
+      }
+    },
+    {
+      "dataset": "CrackTree260",
+      "model": "csds_ablation_m3",
+      "seed": 3407,
+      "source_run": "runs/csds_module_ablation/CrackTree260/csds_ablation_m3/seed_3407",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 91,
+      "sha256": {
+        "history.csv": "c5a8454324abd08751148b8989ca3c725341bb8999523e65abc86876c361dabd",
+        "tolerance2_history.csv": "6e606a4f2d67c90a7900ca6231970109cd0b8410398c1aa8c42009fce65acb37"
+      }
+    },
+    {
+      "dataset": "CrackSC",
+      "model": "csds_ablation_m3",
+      "seed": 42,
+      "source_run": "runs/csds_module_ablation/CrackSC/csds_ablation_m3/seed_42",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 74,
+      "sha256": {
+        "history.csv": "f077bef9ab158e2d1ece4f6da492fbf418a853ac661b0c592cc2ece40e644304",
+        "tolerance2_history.csv": "731d1348ad4cbb13b26ce5c80eccf9d6715c75b5205444407d52936363b98275"
+      }
+    },
+    {
+      "dataset": "CrackSC",
+      "model": "csds_ablation_m3",
+      "seed": 123,
+      "source_run": "runs/csds_module_ablation/CrackSC/csds_ablation_m3/seed_123",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 97,
+      "sha256": {
+        "history.csv": "0c3223531fd8382f131f3ed1875bd389d104bc1ff217a621f37bf03ed26c4b6f",
+        "tolerance2_history.csv": "4d11c35f839939216e25fa196490014ce935cb7c2538b2f494b02b16f35affa3"
+      }
+    },
+    {
+      "dataset": "CrackSC",
+      "model": "csds_ablation_m3",
+      "seed": 3407,
+      "source_run": "runs/csds_module_ablation/CrackSC/csds_ablation_m3/seed_3407",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 99,
+      "sha256": {
+        "history.csv": "c1294f7e4fa6f98ce276b7f5d13f30fe983faf941c203c6e4f1b61a6fedf6b3d",
+        "tolerance2_history.csv": "b0d2af36dec568b0cf2592dce94e34ef13e46c9103207ff90be5f8bba05f12da"
+      }
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "model": "csds_ablation_m3",
+      "seed": 42,
+      "source_run": "runs/csds_module_ablation/UAV-Crack500/csds_ablation_m3/seed_42",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 83,
+      "sha256": {
+        "history.csv": "c9e4751fd5d8fe65ad0c2ae6a2cdb4c354aea0dc25614556459a54f62140da78",
+        "tolerance2_history.csv": "210efbbd562e97cbd44e6992bdac9717c2b3d23306fc9ab50b3718a00a3035a5"
+      }
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "model": "csds_ablation_m3",
+      "seed": 123,
+      "source_run": "runs/csds_module_ablation/UAV-Crack500/csds_ablation_m3/seed_123",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 95,
+      "sha256": {
+        "history.csv": "d3e12f127ff2424ef315e1ac38e535624fb29b5c62511e95b8b2ef9a463f63ce",
+        "tolerance2_history.csv": "e33e2a0167976b52f8f7a71e58184d8f2917af06cc59da2e9d84772d35978516"
+      }
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "model": "csds_ablation_m3",
+      "seed": 3407,
+      "source_run": "runs/csds_module_ablation/UAV-Crack500/csds_ablation_m3/seed_3407",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 86,
+      "sha256": {
+        "history.csv": "fd63adebe6f55d2f7694e9e64403401fb79aab92b08257cc9237667c9d00003e",
+        "tolerance2_history.csv": "8b6f9807592f58aedbd94d89ee9f0ae5c8df563cd45d70fee95b1fadb7fce59a"
+      }
+    },
+    {
+      "dataset": "CrackTree260",
+      "model": "csds_ablation_m4",
+      "seed": 42,
+      "source_run": "runs/csds_module_ablation/CrackTree260/csds_ablation_m4/seed_42",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 73,
+      "sha256": {
+        "history.csv": "b476a58d26c46af35b2fe9ec6a4c3a4bf9d1afb45fade337c22041ef1ea8abe8",
+        "tolerance2_history.csv": "b8cd44b6178952d6d332c06487fb79690d25cf7cb0c73289275aab36edac6a85"
+      }
+    },
+    {
+      "dataset": "CrackTree260",
+      "model": "csds_ablation_m4",
+      "seed": 123,
+      "source_run": "runs/csds_module_ablation/CrackTree260/csds_ablation_m4/seed_123",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 63,
+      "sha256": {
+        "history.csv": "fb6f2923c2610ea2ceb41b6d2c96e02ce6e3efa5fd01c4b117352082d7b43b93",
+        "tolerance2_history.csv": "e1683af25e49990f631b834791a733db6086092c5a32e6c9e5f2cc878eee3b7c"
+      }
+    },
+    {
+      "dataset": "CrackTree260",
+      "model": "csds_ablation_m4",
+      "seed": 3407,
+      "source_run": "runs/csds_module_ablation/CrackTree260/csds_ablation_m4/seed_3407",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 60,
+      "sha256": {
+        "history.csv": "dddf040bff3c2a1851932a17b19b586510c3fd9703586e9e8ed350de244c95c3",
+        "tolerance2_history.csv": "b6e79fe551f8881b8251a5f19fca477b56b393b85e3f0aa8e12550aa777bb4bb"
+      }
+    },
+    {
+      "dataset": "CrackSC",
+      "model": "csds_ablation_m4",
+      "seed": 42,
+      "source_run": "runs/csds_module_ablation/CrackSC/csds_ablation_m4/seed_42",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 83,
+      "sha256": {
+        "history.csv": "6339dead2922088e1e331d586b678e81fae4b0d1b0a0e6a9db115a2ec94f075d",
+        "tolerance2_history.csv": "adc7cd8a3473b1ce1cb9dea8b0e1337bedb303554ed5fbb4e8bde09b202fc2db"
+      }
+    },
+    {
+      "dataset": "CrackSC",
+      "model": "csds_ablation_m4",
+      "seed": 123,
+      "source_run": "runs/csds_module_ablation/CrackSC/csds_ablation_m4/seed_123",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 100,
+      "sha256": {
+        "history.csv": "1744e8067b41456ab91e798a870be4e7d31a56fe73e1919fca7cd88db8d0b45b",
+        "tolerance2_history.csv": "e5c57cab5b39555dc6f2716e64a5588438c428e8aa86bec1e8dbae09a6e1e446"
+      }
+    },
+    {
+      "dataset": "CrackSC",
+      "model": "csds_ablation_m4",
+      "seed": 3407,
+      "source_run": "runs/csds_module_ablation/CrackSC/csds_ablation_m4/seed_3407",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 90,
+      "sha256": {
+        "history.csv": "99bd164b1290ea6b4804b25a45222e59e18e76bf4ea16b9c56beab5e614fc458",
+        "tolerance2_history.csv": "e24178bf201d40e53837c7b0b2fb92a64b0051d41adac71c3485d4e7c034fb3c"
+      }
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "model": "csds_ablation_m4",
+      "seed": 42,
+      "source_run": "runs/csds_module_ablation/UAV-Crack500/csds_ablation_m4/seed_42",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 68,
+      "sha256": {
+        "history.csv": "58a59702f0215b89289a18ac205a7706a312cc9aa23e4265014d6a07506dbc5e",
+        "tolerance2_history.csv": "a8adf5b7d5ffa394b79c2dd5087a87e4b47e4eb4bff0396af0569dc301f51e07"
+      }
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "model": "csds_ablation_m4",
+      "seed": 123,
+      "source_run": "runs/csds_module_ablation/UAV-Crack500/csds_ablation_m4/seed_123",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 64,
+      "sha256": {
+        "history.csv": "e3bca7d33ef67072360a9a35f7607f0c7f739b6f14038dcd84d312eafd447809",
+        "tolerance2_history.csv": "150eac6541cf8252fc05e077cb65cc3d8867c602b498b1bf776795e28527a263"
+      }
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "model": "csds_ablation_m4",
+      "seed": 3407,
+      "source_run": "runs/csds_module_ablation/UAV-Crack500/csds_ablation_m4/seed_3407",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 89,
+      "sha256": {
+        "history.csv": "bb2bc6d54c482cef71068e1e819a387ad88ed29a89d821dc6972d9da5e8c7f1e",
+        "tolerance2_history.csv": "8a0745f5cc20e3702f1d1f743461a6026890b586a0c7aedbc61feea059b9bddc"
+      }
+    },
+    {
+      "dataset": "CrackTree260",
+      "model": "csds_semantic",
+      "seed": 42,
+      "source_run": "runs/csds_semantic_balanced_seed42/CrackTree260/csds_semantic/seed_42",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 77,
+      "sha256": {
+        "history.csv": "32908a589704448ec02f9c6b510e1d098d18dc084fe45e7382debf8dec552c9c",
+        "tolerance2_history.csv": "db74ce486016c3d679bbd516393eb4749ec9c0441caa9bcdc117f319f62c4401"
+      }
+    },
+    {
+      "dataset": "CrackTree260",
+      "model": "csds_semantic",
+      "seed": 123,
+      "source_run": "runs/csds_semantic_balanced_tree_replicates/CrackTree260/csds_semantic/seed_123",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 100,
+      "sha256": {
+        "history.csv": "46f22f651036681eb2788526e5fed0cead260378ceebf95cde160db3d0bedfc0",
+        "tolerance2_history.csv": "d8a46b1b9d01896fa2a951d1d741edc5e698be6321bbe61898bdb8c5a789d91b"
+      }
+    },
+    {
+      "dataset": "CrackTree260",
+      "model": "csds_semantic",
+      "seed": 3407,
+      "source_run": "runs/csds_semantic_balanced_tree_replicates/CrackTree260/csds_semantic/seed_3407",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 64,
+      "sha256": {
+        "history.csv": "985b552b38bd9c21ad6fb555947373c68484555bb469476ef4b02daf8c2b8d09",
+        "tolerance2_history.csv": "2d35f68dd9565c06cb23788ff6bc2a6c71a7da7b43ff948f7f0c591e012e608b"
+      }
+    },
+    {
+      "dataset": "CrackSC",
+      "model": "csds_semantic",
+      "seed": 42,
+      "source_run": "runs/csds_semantic_balanced_repaired_seed42/CrackSC/csds_semantic/seed_42",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 88,
+      "sha256": {
+        "history.csv": "b4a523c6d24c2f7532b75d47d135bf947732a9c55b3826f33a242e7879e60b68",
+        "tolerance2_history.csv": "4920b1d6d1a97b76dc50a601e993c20af5da976be1fdabfdbc6ca2353365163d"
+      }
+    },
+    {
+      "dataset": "CrackSC",
+      "model": "csds_semantic",
+      "seed": 123,
+      "source_run": "runs/csds_module_ablation/CrackSC/csds_semantic/seed_123",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 96,
+      "sha256": {
+        "history.csv": "7a305992dd19922ab0466dcba32b1b4dd7f92a3c2d38ef8c6f1499853fab8253",
+        "tolerance2_history.csv": "a647bcb45fab841bab92f5aaf203a7c919849fa14e003e434e2acc0a2f61c344"
+      }
+    },
+    {
+      "dataset": "CrackSC",
+      "model": "csds_semantic",
+      "seed": 3407,
+      "source_run": "runs/csds_module_ablation/CrackSC/csds_semantic/seed_3407",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 97,
+      "sha256": {
+        "history.csv": "f7d1277b3daf9823e11a64c5d02e9dd1c55321ffbbcd94f2983acf4730b52049",
+        "tolerance2_history.csv": "ddc3979e6aa025430e4055ecbc4071ca887a410dd99421bd0e69b56acd0e0650"
+      }
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "model": "csds_semantic",
+      "seed": 42,
+      "source_run": "runs/csds_semantic_balanced_repaired_seed42/UAV-Crack500/csds_semantic/seed_42",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 98,
+      "sha256": {
+        "history.csv": "7d52e1d56846f58615b2d26654cfdf6415cc2f99e30ed74b03457a047c9f440b",
+        "tolerance2_history.csv": "7dbaad57291b2ba94bc441f03661394defd5d98cbe98af6d1e4b7e62abbb71e2"
+      }
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "model": "csds_semantic",
+      "seed": 123,
+      "source_run": "runs/csds_module_ablation/UAV-Crack500/csds_semantic/seed_123",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 84,
+      "sha256": {
+        "history.csv": "6c79f64c0e5ec06a8722705287bc2aa955c28c1ff5c0def447123a402b7ddb22",
+        "tolerance2_history.csv": "131970870af4c72a560d7e473919ceff0599d1d8f309901d85792d30919a58e8"
+      }
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "model": "csds_semantic",
+      "seed": 3407,
+      "source_run": "runs/csds_module_ablation/UAV-Crack500/csds_semantic/seed_3407",
+      "history_rows": 100,
+      "tolerance_rows": 100,
+      "finite": true,
+      "reference_split_equal": true,
+      "best_epoch": 67,
+      "sha256": {
+        "history.csv": "2abc9071ebc4a0e78b4875afc67131d70121d570f12db75acca8e77bc6348bbb",
+        "tolerance2_history.csv": "054066124e04309f49e02a4a9da7c7ddc2007faf227a93a79db76d8a86e6b3bd"
+      }
+    }
+  ],
+  "count": 54,
+  "raw_observations_only": true,
+  "excluded": "Manually revised manuscript comparison/CrackSC M0 summaries and shifted display curves"
+}

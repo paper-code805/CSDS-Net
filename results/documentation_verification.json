@@ -1,0 +1,123 @@
+{
+  "scope": "manuscript-based documentation/assets only; no retraining or replotting",
+  "all_checks_passed": true,
+  "masfnet_ten_section_order_retained": true,
+  "workspace_README_mirror_synchronized": true,
+  "paper_tables": [
+    {
+      "table": 1,
+      "rows": 11,
+      "data_cells": 22,
+      "all_cells_match": true
+    },
+    {
+      "table": 2,
+      "rows": 24,
+      "data_cells": 144,
+      "all_cells_match": true
+    },
+    {
+      "table": 3,
+      "rows": 6,
+      "data_cells": 60,
+      "all_cells_match": true
+    },
+    {
+      "table": 4,
+      "rows": 9,
+      "data_cells": 36,
+      "all_cells_match": true
+    },
+    {
+      "table": 5,
+      "rows": 3,
+      "data_cells": 15,
+      "all_cells_match": true
+    },
+    {
+      "table": 6,
+      "rows": 8,
+      "data_cells": 32,
+      "all_cells_match": true
+    }
+  ],
+  "original_paper_figures": [
+    {
+      "label": "Figure 1",
+      "path": "figs/CSDS_Net_Architecture.png",
+      "dimensions": [
+        1315,
+        788
+      ],
+      "sha256": "ba68bb52386ae409ac75c4388a40657617c5e6fab48cd8489facf93c451b0fcd",
+      "source_bytes_equal": true
+    },
+    {
+      "label": "Figure 2",
+      "path": "figs/CSDS_Block.png",
+      "dimensions": [
+        1541,
+        939
+      ],
+      "sha256": "4ebd5b0b9b15aa917c6c9046b6a448b7494b9ef7727d5e30b57914c119649f71",
+      "source_bytes_equal": true
+    },
+    {
+      "label": "Figure 3",
+      "path": "figs/paper/qualitative_comparison.png",
+      "dimensions": [
+        2048,
+        1254
+      ],
+      "sha256": "9030354e3431419f9b1aa0f233159ef07d0eca8814d21a31fb30a5548d18ab53",
+      "source_bytes_equal": true
+    },
+    {
+      "label": "Figure 4",
+      "path": "figs/paper/difficult_comparison.png",
+      "dimensions": [
+        2048,
+        1061
+      ],
+      "sha256": "575c1436398659857d5d676a8ecdcd2403986490b1d21c144b7d1c8079bc68c4",
+      "source_bytes_equal": true
+    },
+    {
+      "label": "Figure 5",
+      "path": "figs/paper/module_effect_heatmaps.png",
+      "dimensions": [
+        2048,
+        917
+      ],
+      "sha256": "faf849ff6befcf00c0af2ed036724229bfe7e019694bf01033134870b02d71f0",
+      "source_bytes_equal": true
+    },
+    {
+      "label": "Figure 6",
+      "path": "figs/paper/training_dynamics_2x3.png",
+      "dimensions": [
+        1620,
+        858
+      ],
+      "sha256": "2fc9f294e240c184225697bbc36d3faa8223eb7ded5fdc6addb1e129673a9a06",
+      "source_bytes_equal": true
+    },
+    {
+      "label": "Figure 7",
+      "path": "figs/paper/module_contribution_trajectories.png",
+      "dimensions": [
+        2048,
+        660
+      ],
+      "sha256": "083a28c1c2b293468ed6ec0495f550cf7698059d98803710dcdc96426febfede",
+      "source_bytes_equal": true
+    }
+  ],
+  "protected_existing_code_and_results_unchanged": true,
+  "protected_files_verified_against_prior_package": 150,
+  "figure_visual_review": [
+    "qualitative_comparison.png",
+    "training_dynamics_2x3.png"
+  ],
+  "functional_and_checkpoint_tests": "Prior successful checks retained; not rerun for this documentation-only revision"
+}

@@ -1,0 +1,383 @@
+{
+  "model_operators": {
+    "csds_semantic": {
+      "state_keys_equal": true,
+      "max_forward_abs_difference": 0.0,
+      "params": 5954214
+    },
+    "csds_ablation_m0": {
+      "state_keys_equal": true,
+      "max_forward_abs_difference": 0.0,
+      "params": 3265970
+    },
+    "csds_ablation_m1": {
+      "state_keys_equal": true,
+      "max_forward_abs_difference": 0.0,
+      "params": 5282354
+    },
+    "csds_ablation_m2": {
+      "state_keys_equal": true,
+      "max_forward_abs_difference": 0.0,
+      "params": 5929709
+    },
+    "csds_ablation_m3": {
+      "state_keys_equal": true,
+      "max_forward_abs_difference": 0.0,
+      "params": 5306859
+    },
+    "csds_ablation_m4": {
+      "state_keys_equal": true,
+      "max_forward_abs_difference": 0.0,
+      "params": 3937830
+    }
+  },
+  "checkpoints": [
+    {
+      "dataset": "CrackTree260",
+      "seed": 42,
+      "epoch": 77,
+      "checkpoint_sha256": "06232611a639b53588fd5d772ddae53c653a49308bb049b6ae1cacd4f0026852",
+      "load_strict": true,
+      "recorded_tolerance_metrics_max_abs_difference": 0.0,
+      "metrics": {
+        "precision": 0.857301885479719,
+        "recall": 0.8905912818299525,
+        "dice": 0.8736295780362748,
+        "iou_derived": 0.7756148075276875,
+        "accuracy": 0.9932209895207331
+      },
+      "strict": {
+        "precision": 0.3399777360328394,
+        "recall": 0.7029923751978132,
+        "dice": 0.458309885574939,
+        "accuracy": 0.9932209895207331,
+        "iou": 0.29727756653992393
+      },
+      "counts": {
+        "pred_match": 24644,
+        "pred_positive": 28746,
+        "gt_match": 12381,
+        "gt_positive": 13902,
+        "exact_correct": 3384770,
+        "total": 3407872
+      },
+      "validation_samples": 52,
+      "fp32_retry_batches": 0
+    },
+    {
+      "dataset": "CrackTree260",
+      "seed": 123,
+      "epoch": 100,
+      "checkpoint_sha256": "88fa7e02c11ba085f4c64224edead600d1ab7041a5d4c29ab83065956a55a407",
+      "load_strict": true,
+      "recorded_tolerance_metrics_max_abs_difference": 0.0,
+      "metrics": {
+        "precision": 0.8625506985128436,
+        "recall": 0.8857718313911668,
+        "dice": 0.874007053986085,
+        "iou_derived": 0.7762100615995192,
+        "accuracy": 0.9932553217961237
+      },
+      "strict": {
+        "precision": 0.34256595139875895,
+        "recall": 0.7108329736728528,
+        "dice": 0.4623266041310907,
+        "accuracy": 0.9932553217961237,
+        "iou": 0.30066632184257763
+      },
+      "counts": {
+        "pred_match": 24882,
+        "pred_positive": 28847,
+        "gt_match": 12314,
+        "gt_positive": 13902,
+        "exact_correct": 3384887,
+        "total": 3407872
+      },
+      "validation_samples": 52,
+      "fp32_retry_batches": 0
+    },
+    {
+      "dataset": "CrackTree260",
+      "seed": 3407,
+      "epoch": 64,
+      "checkpoint_sha256": "810ba174e09b11e8cae7d5e0bcdbb485863f4c451e13e4878898e0cf9d325bfc",
+      "load_strict": true,
+      "recorded_tolerance_metrics_max_abs_difference": 0.0,
+      "metrics": {
+        "precision": 0.8418200334618462,
+        "recall": 0.85786217810387,
+        "dice": 0.8497654003354032,
+        "iou_derived": 0.7387757250418227,
+        "accuracy": 0.993258549616887
+      },
+      "strict": {
+        "precision": 0.33501854950170945,
+        "recall": 0.6625665371888937,
+        "dice": 0.44501884240023193,
+        "accuracy": 0.993258549616887,
+        "iou": 0.2861892185800839
+      },
+      "counts": {
+        "pred_match": 23145,
+        "pred_positive": 27494,
+        "gt_match": 11926,
+        "gt_positive": 13902,
+        "exact_correct": 3384898,
+        "total": 3407872
+      },
+      "validation_samples": 52,
+      "fp32_retry_batches": 0
+    },
+    {
+      "dataset": "CrackSC",
+      "seed": 42,
+      "epoch": 88,
+      "checkpoint_sha256": "2c9d6b918640562df3aad43c7ed8b5a80cb986a424461f878284efb671e7e68b",
+      "load_strict": true,
+      "recorded_tolerance_metrics_max_abs_difference": 0.0,
+      "metrics": {
+        "precision": 0.8463645264031924,
+        "recall": 0.842790202342918,
+        "dice": 0.8445735826613296,
+        "iou_derived": 0.7309626731632658,
+        "accuracy": 0.9746661063952323
+      },
+      "strict": {
+        "precision": 0.38969649651138294,
+        "recall": 0.6697550585729499,
+        "dice": 0.49271002264162767,
+        "accuracy": 0.9746661063952323,
+        "iou": 0.32688469375025986
+      },
+      "counts": {
+        "pred_match": 68294,
+        "pred_positive": 80691,
+        "gt_match": 39569,
+        "gt_positive": 46950,
+        "exact_correct": 2491153,
+        "total": 2555904
+      },
+      "validation_samples": 39,
+      "fp32_retry_batches": 0
+    },
+    {
+      "dataset": "CrackSC",
+      "seed": 123,
+      "epoch": 96,
+      "checkpoint_sha256": "6f104276413ba8d9cb4adacff007d2dec7a15fdf41e23f47ab5df03485011cec",
+      "load_strict": true,
+      "recorded_tolerance_metrics_max_abs_difference": 0.0,
+      "metrics": {
+        "precision": 0.8395088716435312,
+        "recall": 0.8477955271565495,
+        "dice": 0.8436318507718852,
+        "iou_derived": 0.7295529986146854,
+        "accuracy": 0.9741394825470753
+      },
+      "strict": {
+        "precision": 0.38373349850013966,
+        "recall": 0.6729925452609159,
+        "dice": 0.4887733871653866,
+        "accuracy": 0.9741394825470753,
+        "iou": 0.3234282555735255
+      },
+      "counts": {
+        "pred_match": 69126,
+        "pred_positive": 82341,
+        "gt_match": 39804,
+        "gt_positive": 46950,
+        "exact_correct": 2489807,
+        "total": 2555904
+      },
+      "validation_samples": 39,
+      "fp32_retry_batches": 0
+    },
+    {
+      "dataset": "CrackSC",
+      "seed": 3407,
+      "epoch": 97,
+      "checkpoint_sha256": "9a4f7b55868d90bf41f154f8de2cf54abf1e20afc1073ad4b0f4ad765d442e2e",
+      "load_strict": true,
+      "recorded_tolerance_metrics_max_abs_difference": 0.0,
+      "metrics": {
+        "precision": 0.8367923747353981,
+        "recall": 0.8441107561235357,
+        "dice": 0.8404356339027897,
+        "iou_derived": 0.724785668200098,
+        "accuracy": 0.9736496362930689
+      },
+      "strict": {
+        "precision": 0.37938293066543677,
+        "recall": 0.6833013844515442,
+        "dice": 0.4878831428549703,
+        "accuracy": 0.9736496362930689,
+        "iou": 0.3226490998692548
+      },
+      "counts": {
+        "pred_match": 70760,
+        "pred_positive": 84561,
+        "gt_match": 39631,
+        "gt_positive": 46950,
+        "exact_correct": 2488555,
+        "total": 2555904
+      },
+      "validation_samples": 39,
+      "fp32_retry_batches": 0
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "seed": 42,
+      "epoch": 98,
+      "checkpoint_sha256": "e1bd35fe78cc7eaa6a9dc7cbcf397cef761df62e0533989663a0c4097b7fc1db",
+      "load_strict": true,
+      "recorded_tolerance_metrics_max_abs_difference": 0.0,
+      "metrics": {
+        "precision": 0.9148803801786157,
+        "recall": 0.8933540848088993,
+        "dice": 0.9039891016010783,
+        "iou_derived": 0.8247993728179589,
+        "accuracy": 0.9678433736165365
+      },
+      "strict": {
+        "precision": 0.7296993224386008,
+        "recall": 0.7684880338827371,
+        "dice": 0.7485915499958743,
+        "accuracy": 0.9678433736165365,
+        "iou": 0.5981992130494295
+      },
+      "counts": {
+        "pred_match": 944098,
+        "pred_positive": 1031936,
+        "gt_match": 875353,
+        "gt_positive": 979850,
+        "exact_correct": 15222860,
+        "total": 15728640
+      },
+      "validation_samples": 240,
+      "fp32_retry_batches": 0
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "seed": 123,
+      "epoch": 84,
+      "checkpoint_sha256": "de9c8c80dfb1a1e3655e44edaa67e5cefe45a222f43e85bdd22da2059eddc01f",
+      "load_strict": true,
+      "recorded_tolerance_metrics_max_abs_difference": 0.0,
+      "metrics": {
+        "precision": 0.912267168861847,
+        "recall": 0.9003847527682809,
+        "dice": 0.9062870146140487,
+        "iou_derived": 0.8286333130572063,
+        "accuracy": 0.9680262247721354
+      },
+      "strict": {
+        "precision": 0.7293666839151988,
+        "recall": 0.7739184569066694,
+        "dice": 0.7509823960957678,
+        "accuracy": 0.9680262247721354,
+        "iou": 0.6012584560444265
+      },
+      "counts": {
+        "pred_match": 948486,
+        "pred_positive": 1039702,
+        "gt_match": 882242,
+        "gt_positive": 979850,
+        "exact_correct": 15225736,
+        "total": 15728640
+      },
+      "validation_samples": 240,
+      "fp32_retry_batches": 0
+    },
+    {
+      "dataset": "UAV-Crack500",
+      "seed": 3407,
+      "epoch": 67,
+      "checkpoint_sha256": "4ebeaf76918bc589216f1274ed13f340a9cf909a22e11a3c27ab31c8681b8a68",
+      "load_strict": true,
+      "recorded_tolerance_metrics_max_abs_difference": 0.0,
+      "metrics": {
+        "precision": 0.9099578652915704,
+        "recall": 0.8981099147828749,
+        "dice": 0.9039950712681468,
+        "iou_derived": 0.824809312047644,
+        "accuracy": 0.9678265253702799
+      },
+      "strict": {
+        "precision": 0.7305802209225253,
+        "recall": 0.7660478644690514,
+        "dice": 0.747893780056385,
+        "accuracy": 0.9678265253702799,
+        "iou": 0.597308573461175
+      },
+      "counts": {
+        "pred_match": 934908,
+        "pred_positive": 1027419,
+        "gt_match": 880013,
+        "gt_positive": 979850,
+        "exact_correct": 15222595,
+        "total": 15728640
+      },
+      "validation_samples": 240,
+      "fp32_retry_batches": 0
+    }
+  ],
+  "device": "cuda",
+  "torch": "2.0.1",
+  "full_training_performed": false,
+  "functional_tests": {
+    "passed": true,
+    "count": 4,
+    "checks": [
+      "all six model shapes and finite gradients",
+      "strict/tolerance displacement and empty sets",
+      "nonfinite FP32 retry",
+      "synthetic train/interruption-resume/evaluate/overwrite guard"
+    ],
+    "resume_matches_uninterrupted_weights": true,
+    "data": "synthetic only"
+  },
+  "profile_check": {
+    "csds_semantic": {
+      "params_m": 5.954214,
+      "gflops": 26.388834624,
+      "fps": 121.6896856228097,
+      "device": "cuda",
+      "device_name": "NVIDIA GeForce RTX 3090",
+      "torch": "2.0.1",
+      "input": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "precision": "float32",
+      "warmup": 5,
+      "repeats": 30,
+      "scope": "model forwards only; excludes loading, preprocessing, metric calculation and saving",
+      "method": "THOP counted MACs x 2; operator coverage is profiler-dependent"
+    }
+  },
+  "markdown_relative_links_valid": true,
+  "data_manifest_preflight": {
+    "CrackTree260": [
+      208,
+      52
+    ],
+    "CrackSC": [
+      158,
+      39
+    ],
+    "UAV-Crack500": [
+      960,
+      240
+    ]
+  },
+  "reference_environment": {
+    "python": "3.9.21",
+    "torch": "2.0.1",
+    "numpy": "1.26.4",
+    "Pillow": "11.1.0",
+    "CUDA": "11.7",
+    "GPU": "NVIDIA GeForce RTX 3090"
+  }
+}

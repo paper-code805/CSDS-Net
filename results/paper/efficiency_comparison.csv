@@ -1,0 +1,9 @@
+method,GFLOPs,parameters_M,FPS
+SCSegamba,9.70,3.05,33.21
+SegFormer-B3,35.67,47.22,108.72
+TransFuse-S,17.29,26.25,167.81
+TransUNet,64.46,105.32,89.20
+Swin-UMamba,75.90,57.94,72.43
+CT-CrackSeg,78.94,22.88,37.86
+CrackFormer-II,40.93,4.96,49.19
+CSDS-Net,26.39,5.95,122.66

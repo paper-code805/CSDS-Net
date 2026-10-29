@@ -1,0 +1,28 @@
+{
+  "release_model": "checkpoint-compatible semantic research variant",
+  "not_exact_manuscript_architecture": true,
+  "sources": {
+    "csds_net/model.py": "ae9c40c6efeb3b2d008c2d7ba4f2ea03e94da23c91233a2262cc8957cad64403",
+    "csds_net/data.py": "1633fd20c5c15aea93418bbef405f97e493351140def990801ccbc4626c1e529",
+    "csds_net/losses.py": "afd2723e4c51146ce1bff34b5e9722ec725c478917e23fcaf6db9a5686b09c15",
+    "train_csds_matched.py": "f6302aa58e6dc24855e8864afca8a495e3bed7ae8bffb8956f2fe61da7235877",
+    "train_csds_validation_safe.py": "24e7f8333005e610c4ee6ad2f9f03de4fd2061657fe7831ff5b75ac82397ef8c"
+  },
+  "runs": {
+    "CrackTree260": {
+      "source_run": "runs/csds_semantic_balanced_seed42/CrackTree260/csds_semantic/seed_42",
+      "history_sha256": "32908a589704448ec02f9c6b510e1d098d18dc084fe45e7382debf8dec552c9c",
+      "manifest_sha256": "9ace90cb2085d68b6179637229f93e78564464069d2c33835eba9644b491bbd8"
+    },
+    "CrackSC": {
+      "source_run": "runs/csds_semantic_balanced_repaired_seed42/CrackSC/csds_semantic/seed_42",
+      "history_sha256": "b4a523c6d24c2f7532b75d47d135bf947732a9c55b3826f33a242e7879e60b68",
+      "manifest_sha256": "8a4818b1572c126e5fe365fc4db8273389af3791d321cb4bc9671be2ca60a2b9"
+    },
+    "UAV-Crack500": {
+      "source_run": "runs/csds_semantic_balanced_repaired_seed42/UAV-Crack500/csds_semantic/seed_42",
+      "history_sha256": "7d52e1d56846f58615b2d26654cfdf6415cc2f99e30ed74b03457a047c9f440b",
+      "manifest_sha256": "c2a9300359c535fc806a5a781503493247229940911b83a2b1c6b21b263c7691"
+    }
+  }
+}
